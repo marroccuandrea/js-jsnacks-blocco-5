@@ -153,4 +153,18 @@ function unisciArray(numbers, words) {
 }
 console.log(unisciArray(numbers,words));
 
-  
+// Snack 5
+
+const array = ['casa','auto','moto','barca','elicottero','aereo'];
+const a = 1;
+const b = 5;
+
+function getValoriRange(array, a, b) {
+    const elementiFiltrati = [];
+    for (let i = a; i <= b; i++){
+        elementiFiltrati.push(array[i]);
+    }
+    return elementiFiltrati;
+}
+
+console.log(getValoriRange(array, a, b));
