@@ -137,3 +137,20 @@ function giraParola(word){
 }
 
 console.log(giraParola(parola));
+
+// Snack 4
+
+const numbers = [1,2,3];
+const words = ['a','b','c'];
+
+function unisciArray(numbers, words) {
+    const numbersWords = [];
+    for (let i = 0; i < numbers.length; i++) {
+        numbersWords.push(numbers[i]);
+        numbersWords.push(words[i]);
+    }
+    return numbersWords;
+}
+console.log(unisciArray(numbers,words));
+
+  
