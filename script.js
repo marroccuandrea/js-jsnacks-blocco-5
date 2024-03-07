@@ -131,3 +131,9 @@ console.log('il peso totale delle zucchine grandi è: ' + totaleZucchinePiccole 
 
 // Snack 3
 
+let parola = 'Ciao';
+function giraParola(word){
+    return word.split('').reverse().join('');
+}
+
+console.log(giraParola(parola));
